@@ -1,0 +1,48 @@
+img {
+	position: absolute;
+	right: 45px;
+	top: 25px;
+	z-index: 1;
+    transform: rotate(167deg);
+	
+}
+
+p.body {
+	color: grey;
+	font-family: serif;
+	word-wrap: break-word;
+	position: relative;
+	float: left;
+	width: 500px;
+	text-align:justify;	
+}
+
+p.left{
+	clear:left;
+	float: left;
+    max-width: 160px;
+    margin-left: 130px;
+
+
+}
+
+a.date{
+	float: right;
+	color: grey;
+}
+div.right {
+	float: right;
+	margin-right: 700px;
+    border-left: 1.5px solid gray;
+	padding-left: 20px;
+    overflow: hidden;
+	text-align:left;
+	word-wrap: break-word;
+	max-width: 650px;
+	position: relative;
+}
+div.clearfix::after {
+	content: "";
+	clear:both;
+	display:table;
+}
